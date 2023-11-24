@@ -7,6 +7,7 @@
 html,body{
     height:100%;
     width:100%;
+    /* background-color: #111111; */
     font-family: monument;
     /* overflow-y: hidden; */
 }
@@ -23,11 +24,9 @@ body::-webkit-scrollbar-thumb{
 
 #main{
     width:100%;
-    height:100%;
+    /* height:100%; */
     padding-top: 0.1px;
-    /* background-color: #111111; */
-    
-    
+    /* background-color: red; */
 }
 
 nav{
@@ -162,18 +161,18 @@ button:hover{
 
 .scroll img{
     /* display: none; */
-    height:30%;
+    height:40%;
     width:8%;
-    border-radius: 25px;
+    border-radius: 50%;
     object-fit: cover;
-    object-position: -125% -20%;
+    object-position: 0% -20%;
     margin: 1vh 0.3vw;
-    border-right:2px solid black;
+    /* border-right:2px solid black; */
 }
 
 .agents{
     position: absolute;
-    top:105%;
+    top:130%;
     left:2.5vw;
     font-weight:600 ;
     letter-spacing: .1vw;
@@ -184,9 +183,11 @@ button:hover{
 
 .agent-info{
     position: absolute;
-    top:112%;
+    top:134%;
+    /* color: white; */
     padding-left: 1.5vw;
     font-weight: 100;
+    letter-spacing: .1vw;
     line-height: 1.4vw;
 }
 
@@ -209,12 +210,13 @@ button:hover{
    
 }
 
+
 .valo-img{
     position: absolute;
     width:100px;
     height:100px;
-    top:110%;
-    left:75%;
+    top:133%;
+    left:79%;
     background-image: url(./assets/toppng.com-valorant-logo-icon-3200x1796.png);
     background-size: cover;
     background-position: 50% 50%;
@@ -235,6 +237,8 @@ button:hover{
     width:100%;
     height:100%;
     padding:2vw;
+    /* color: white; */
+    letter-spacing: .1vw;
     border-bottom: 5px solid black;
 }
 
@@ -252,17 +256,135 @@ button:hover{
 
 .round-text{
     position: absolute;
-    top:190%;
+    top:218%;
     height: 300px;
     width: 300px;
-    left:75%;
+    left: 76%;
     border-radius: 50%;
+    mix-blend-mode:multiply;
     object-position: 50% 50%;
     animation-name: rotate360;
     animation-duration: 5s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
 }
+
+#media{
+    width: 100%;
+    height: 100%;
+    padding:1.5vw;
+    border-bottom:5px solid black;
+
+}
+
+#media h1{
+    font-size: 5vw;
+    padding: 1vw 1.5vw;
+    color: #FF4655;
+    /* text-transform: uppercase; */
+    /* -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black; */
+}
+
+#media-files{
+    width:100%;
+    height:100%;
+    /* background-color: green; */
+    padding-left: 5vw;
+    padding-top: 2vw;
+    padding-bottom: 3vw;
+    position: relative;
+    display: grid;
+  grid-template-columns: auto auto auto;
+  /* grid-template-rows: auto auto auto; */
+}   
+
+.wall{
+    /* border: 1px solid black; */
+    width: 400px;
+    height:400px;
+    position: relative;
+    /* margin:0 2vw 2vw 0; */
+    margin-bottom: 2vw;
+    /* background-color: #FF4655; */
+    border-radius: 14px;
+    overflow: hidden;
+    box-shadow: 6px 4px 2px #FF4655;
+}
+
+.wall video{
+    width:100%;
+    height: 100%;
+    object-fit:cover;
+    /* display: none; */
+}
+
+.overlay{
+    width:400px;
+    height:400px;    
+    position: absolute;
+    animation-name: overlayinit;
+    animation-duration: 1s;
+}
+
+.overlay1{
+    background-image: url(./assets/hover/raze.jpg);
+    background-size: cover;
+}
+
+.overlay2{
+    background-image: url(./assets/hover/reyna.jpg);
+    background-size: cover;
+}
+
+.overlay3{
+    background-image: url(./assets/hover/jett.jpg);
+    background-size: cover;
+}
+
+.overlay4{
+    background-image: url(./assets/hover/sage.jpg);
+    background-size: cover;
+}
+
+.overlay5{
+    background-image: url(./assets/hover/kj.jpg);
+    background-size: cover;
+}
+
+.overlay6{
+    background-image: url(./assets/hover/deadlock.jpg);
+    background-size: cover;
+}
+
+.overlay7{
+    background-image: url(./assets/hover/fade.jpg);
+    background-size: cover;
+}
+.overlay8{
+    background-image: url(./assets/hover/neon.jpg);
+    background-size: cover;
+}
+.overlay9{
+    background-image: url(./assets/hover/astra.jpg);
+    background-size: cover;
+}
+
+.wall:hover{
+    cursor: pointer;
+   
+    .overlay{
+        animation-name: overlayhide;
+        animation-duration: .5s;
+        animation-timing-function: linear;
+        animation-fill-mode: forwards;
+    }
+}
+
+.wall1 video{
+animation-play-state: paused;
+}
+
 
 @keyframes scrollanimation {
     from{
@@ -280,5 +402,22 @@ button:hover{
     }
     to{
         rotate:360deg;
+    }
+}
+
+@keyframes overlayhide {
+    from{
+        transform: translateX(0%);
+    }
+    to {transform:translateX(-100%)
+    }
+}
+
+@keyframes overlayinit {
+    from{
+        transform: translateX(-100%);
+        
+    }
+    to {transform:translateX(0%);
     }
 }
