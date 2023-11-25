@@ -1,1 +1,442 @@
-#marque h1,#marque2 h1,.container,.round-text,.wall:hover{animation-timing-function:linear}#marque h1,#marque2 h1,.container,.round-text{animation-iteration-count:infinite}#faqs h1,#news>h1,#socials h1{margin-bottom:1vw;color:#ff4655}#faqs,#main,#marque,#marque2,#news,#socials,.newspart,body,html,nav{width:100%}.menubar,.title,nav{display:flex}.agents,button{font-weight:600}.agents,.center-top p:last-child,.ri-arrow-up-double-fill,.social-handles a:hover{color:#ff4655}.agent-info,.agents{letter-spacing:.1vw}.overlay1,.overlay2,.overlay3,.overlay4,.overlay5,.overlay6,.overlay7,.overlay8,.overlay9,.valo-img{background-size:cover}#marque,#marque2{height:20vh}#marque,#marque2,.scroll{white-space:nowrap;overflow-x:hidden;overflow-y:hidden}*{margin:0;padding:0;box-sizing:border-box}body,html{height:100%;font-family:monument,Kanit,sans-serif;position:relative;scroll-behavior:smooth}body::-webkit-scrollbar{width:8px;height:4px;background-color:#dadada}body::-webkit-scrollbar-thumb{background-color:#ff4655}.btn-scroll{height:40px;left:95%;width:40px;border-radius:50%;background-color:transparent;top:90%;z-index:2;position:fixed;backdrop-filter:blur(10px);border:1px solid grey}#media,#media-files,.center,.menubar,.title,.wall{position:relative}.center-bottom,.center-top{backdrop-filter:blur(1px);padding:1vw}.btn-scroll:hover{background-color:#000}#main{padding-top:.1px}nav{height:8vh;margin-top:2vh;border-top:.5px solid #ff4655;border-bottom:.5px solid #ff4655;justify-content:space-between;align-items:center}.title{padding:1vw;align-items:center;justify-content:center}.title h1{letter-spacing:2px}.title img{width:1.7vw;height:3vh;margin-right:.5vw}.menubar{align-items:center;justify-content:center}a{text-decoration:none;color:#000}.menubar h2{padding:1vw;height:100%;font-size:2.2vh;font-weight:500;border-left:1px solid #ff4655}.menubar h2 a:hover{color:#ff4655;cursor:pointer}.center{width:100%;height:78%;padding:2vw 1vw}.agent-info,.agents,.center-bottom,.center-top,.logo-png,.valo-img{position:absolute}.center video{width:100%;height:100%;object-fit:cover;border-radius:.3vw}.center-top{top:75%;font-size:2vw;width:calc(100% - 2vw)}.center-top p{margin-left:1vw;font-weight:550;color:#fff}.center-bottom{top:76%;left:85%}button{padding:.5vw;border-radius:10px;font-size:1vw;width:7vw;height:3vw;background-color:#ff4655;color:#fff;border:none}button:hover{cursor:pointer;animation-duration:2s}.scroll{height:40vh;width:100%;padding:1vw;border-bottom:5px solid #000}.scroll img{height:40%;width:8%;border-radius:50%;object-fit:cover;object-position:0% -20%;margin:1vh .3vw}.agents{top:130%;left:2.5vw;text-transform:uppercase}.agent-info{top:134%;padding-left:1.5vw;font-weight:100;line-height:1.4vw}#media h1,.game-info-title{font-size:5vw;padding:1vw 1.5vw;color:#ff4655}.logo-png{width:10px;height:10px;top:10%}.container{height:100%;width:100%;display:inline-block;animation-name:scrollanimation;animation-duration:15s}.valo-img{width:100px;height:100px;top:133%;left:79%;background-image:url(./assets/toppng.com-valorant-logo-icon-3200x1796.png);background-position:50% 50%}#faqs,#media,#media-files,.wall video{height:100%}.game-info-title{width:100%;border-bottom:1px solid #000;position:relative;letter-spacing:.4vw}#faqs,#news,#socials{padding:2vw}#faqs,#marque2,#media,#news,.game-info-section{border-bottom:5px solid #000}.game-info-section{width:100%;height:100%;padding:2vw;letter-spacing:.1vw}.game-info-section .p-left{text-align:left;line-height:1.4vw;margin-bottom:2vw}.p-right{text-align:left;line-height:1.3vw}.round-text{position:absolute;top:218%;height:300px;width:300px;left:76%;border-radius:50%;mix-blend-mode:multiply;object-position:50% 50%;animation-name:rotate360;animation-duration:5s}.overlay,.wall{width:400px;height:400px}#media{width:100%;padding:1.5vw}#media-files{width:100%;padding-left:5vw;padding-top:2vw;padding-bottom:3vw;display:grid;grid-template-columns:auto auto auto}.wall{margin-bottom:2vw;border-radius:14px;overflow:hidden;box-shadow:6px 4px 2px #ff4655}.wall video{width:100%;object-fit:cover}.overlay{position:absolute;animation-name:overlayinit;animation-duration:1s}.overlay1{background-image:url(./assets/hover/raze.jpg)}.overlay2{background-image:url(./assets/hover/reyna.jpg)}.overlay3{background-image:url(./assets/hover/jett.jpg)}.overlay4{background-image:url(./assets/hover/sage.jpg)}.overlay5{background-image:url(./assets/hover/kj.jpg)}.overlay6{background-image:url(./assets/hover/deadlock.jpg)}.overlay7{background-image:url(./assets/hover/fade.jpg)}.overlay8{background-image:url(./assets/hover/neon.jpg)}.overlay9{background-image:url(./assets/hover/astra.jpg)}.wall:hover{cursor:pointer;animation-duration:.5s;animation-fill-mode:forwards}#news{height:100vh}#news>h1{font-size:3vw;text-align:center}#marque h1,#marque2 h1{display:inline-block;font-size:4vw;margin-right:16px;-webkit-text-stroke:2px black;text-transform:uppercase;animation-name:move;animation-duration:3s}.newspart{height:16vh;padding:0 5vw;border-top:3px solid #000;display:flex;justify-content:space-between;align-items:center}.newspart h3,.twitter{color:#000}.newspart h4{color:#6c6b6b;font-size:.8vw}.newspart:hover{cursor:pointer;background-color:#fb6e7a66}.newspart:last-child{border-bottom:3px solid #000}#marque{padding:2vw 0 0 2vw}#marque h1{color:transparent}#marque2 h1{color:#000;letter-spacing:.1vw;animation-direction:reverse}#faqs h1,#socials h1{font-size:5vw}#faqs h3{font-size:2vw;margin-bottom:.5vw}#faqs p{font-size:1vw;line-height:1.5vw;color:grey;margin-bottom:1.5vw}#socials{height:30vh}.social-handles{padding-top:1vw;display:flex;justify-content:space-around}.social-handles h3{font-size:1.5vw}.social-handles i{padding-right:.3vw}.fb i{color:#00f}.ig i{color:#ea00ff}.yt i{color:red}@keyframes scrollanimation{from{transform:translateX(0)}to{transform:translateX(calc(-100% - 20px))}}@keyframes rotate360{from{rotate:0}to{rotate:360deg}}@keyframes overlayhide{from{transform:translateX(0)}to{transform:translateX(-100%)}}@keyframes overlayinit{from{transform:translateX(-100%)}to{transform:translateX(0)}}@keyframes move{from{transform:translateX(0)}to{transform:translateX(calc(-100% - 20px))}}
+#marque h1,#marque2 h1,.container,.round-text,.wall:hover{
+    animation-timing-function:linear
+}
+#marque h1,#marque2 h1,.container,.round-text{
+    animation-iteration-count:infinite
+}
+#faqs h1,#news>h1,#socials h1{
+    margin-bottom:1vw;
+    color:#ff4655
+}
+#faqs,#main,#marque,#marque2,#news,#socials,.newspart,body,html,nav{
+    width:100%
+}
+.menubar,.title,nav{
+    display:flex
+}
+.agents,button{
+    font-weight:600
+}
+.agents,.center-top p:last-child,.ri-arrow-up-double-fill,.social-handles a:hover{
+    color:#ff4655
+}
+.agent-info,.agents{
+    letter-spacing:.1vw
+}
+.overlay1,.overlay2,.overlay3,.overlay4,.overlay5,.overlay6,.overlay7,.overlay8,.overlay9,.valo-img{
+    background-size:cover
+}
+#marque,#marque2{
+    height:20vh
+}
+#marque,#marque2,.scroll{
+    white-space:nowrap;
+    overflow-x:hidden;
+    overflow-y:hidden
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box
+}
+body,html{
+    height:100%;
+    font-family:monument,Kanit,sans-serif;
+    position:relative;
+    scroll-behavior:smooth
+}
+body::-webkit-scrollbar{
+    width:8px;
+    height:4px;
+    background-color:#dadada
+}
+body::-webkit-scrollbar-thumb{
+    background-color:#ff4655
+}
+.btn-scroll{
+    height:40px;
+    left:95%;
+    width:40px;
+    border-radius:50%;
+    background-color:transparent;
+    top:90%;
+    z-index:2;
+    position:fixed;
+    backdrop-filter:blur(10px);
+    border:1px solid grey
+}
+#media,#media-files,.center,.menubar,.title,.wall{
+    position:relative
+}
+.center-bottom,.center-top{
+    backdrop-filter:blur(1px);
+    padding:1vw
+}
+.btn-scroll:hover{
+    background-color:#000
+}
+#main{
+    padding-top:.1px
+}
+nav{
+    height:8vh;
+    margin-top:2vh;
+    border-top:.5px solid #ff4655;
+    border-bottom:.5px solid #ff4655;
+    justify-content:space-between;
+    align-items:center
+}
+.title{
+    padding:1vw;
+    align-items:center;
+    justify-content:center
+}
+.title h1{
+    letter-spacing:2px
+}
+.title img{
+    width:1.7vw;
+    height:3vh;
+    margin-right:.5vw
+}
+.menubar{
+    align-items:center;
+    justify-content:center
+}
+a{
+    text-decoration:none;
+    color:#000
+}
+.menubar h2{
+    padding:1vw;
+    height:100%;
+    font-size:2.2vh;
+    font-weight:500;
+    border-left:1px solid #ff4655
+}
+.menubar h2 a:hover{
+    color:#ff4655;
+    cursor:pointer
+}
+.center{
+    width:100%;
+    height:78%;
+    padding:2vw 1vw
+}
+.agent-info,.agents,.center-bottom,.center-top,.logo-png,.valo-img{
+    position:absolute
+}
+.center video{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    border-radius:.3vw
+}
+.center-top{
+    top:75%;
+    font-size:2vw;
+    width:calc(100% - 2vw)
+}
+.center-top p{
+    margin-left:1vw;
+    font-weight:550;
+    color:#fff
+}
+.center-bottom{
+    top:76%;
+    left:85%
+}
+button{
+    padding:.5vw;
+    border-radius:10px;
+    font-size:1vw;
+    width:7vw;
+    height:3vw;
+    background-color:#ff4655;
+    color:#fff;
+    border:none
+}
+button:hover{
+    cursor:pointer;
+    animation-duration:2s
+}
+.scroll{
+    height:40vh;
+    width:100%;
+    padding:1vw;
+    border-bottom:5px solid #000
+}
+.scroll img{
+    height:40%;
+    width:8%;
+    border-radius:50%;
+    object-fit:cover;
+    object-position:0% -20%;
+    margin:1vh .3vw
+}
+.agents{
+    top:127vh;
+    left:2.5vw;
+    text-transform:uppercase
+}
+.agent-info{
+    top:132vh;
+    padding-left:1.5vw;
+    font-weight:100;
+    line-height:1.4vw
+}
+#media h1,.game-info-title{
+    font-size:5vw;
+    padding:1vw 1.5vw;
+    color:#ff4655
+}
+.logo-png{
+    width:10px;
+    height:10px;
+    top:10%
+}
+.container{
+    height:100%;
+    width:100%;
+    display:inline-block;
+    animation-name:scrollanimation;
+    animation-duration:15s
+}
+.valo-img{
+    width:7vw;
+    height:7vw;
+    top:131vh;
+    left:79%;
+    background-image:url(./assets/toppng.com-valorant-logo-icon-3200x1796.png);
+    background-position:50% 50%
+}
+#faqs,#media,#media-files,.wall video{
+    height:100%
+}
+.game-info-title{
+    width:100%;
+    border-bottom:1px solid #000;
+    position:relative;
+    letter-spacing:.4vw
+}
+#faqs,#news,#socials{
+    padding:2vw
+}
+#faqs,#marque2,#media,#news,.game-info-section{
+    border-bottom:5px solid #000
+}
+.game-info-section{
+    width:100%;
+    height:100%;
+    padding:2vw;
+    letter-spacing:.1vw
+}
+.game-info-section .p-left{
+    text-align:left;
+    line-height:1.4vw;
+    margin-bottom:2vw
+}
+.p-right{
+    text-align:left;
+    line-height:1.3vw
+}
+.round-text{
+    position:absolute;
+    top:218%;
+    height:300px;
+    width:300px;
+    left:76%;
+    border-radius:50%;
+    mix-blend-mode:multiply;
+    object-position:50% 50%;
+    animation-name:rotate360;
+    animation-duration:5s
+}
+.overlay,.wall{
+    width:400px;
+    height:400px
+}
+#media{
+    width:100%;
+    padding:1.5vw
+}
+#media-files{
+    width:100%;
+    padding-left:5vw;
+    padding-top:2vw;
+    padding-bottom:3vw;
+    display:grid;
+    grid-template-columns:auto auto auto
+}
+.wall{
+    margin-bottom:2vw;
+    border-radius:14px;
+    overflow:hidden;
+    box-shadow:6px 4px 2px #ff4655
+}
+.wall video{
+    width:100%;
+    object-fit:cover
+}
+.overlay{
+    position:absolute;
+    animation-name:overlayinit;
+    animation-duration:1s
+}
+.overlay1{
+    background-image:url(./assets/hover/raze.jpg)
+}
+.overlay2{
+    background-image:url(./assets/hover/reyna.jpg)
+}
+.overlay3{
+    background-image:url(./assets/hover/jett.jpg)
+}
+.overlay4{
+    background-image:url(./assets/hover/sage.jpg)
+}
+.overlay5{
+    background-image:url(./assets/hover/kj.jpg)
+}
+.overlay6{
+    background-image:url(./assets/hover/deadlock.jpg)
+}
+.overlay7{
+    background-image:url(./assets/hover/fade.jpg)
+}
+.overlay8{
+    background-image:url(./assets/hover/neon.jpg)
+}
+.overlay9{
+    background-image:url(./assets/hover/astra.jpg)
+}
+.wall:hover{
+    cursor:pointer;
+    animation-duration:.5s;
+    animation-fill-mode:forwards
+}
+#news{
+    height:100vh
+}
+#news>h1{
+    font-size:3vw;
+    text-align:center
+}
+#marque h1,#marque2 h1{
+    display:inline-block;
+    font-size:4vw;
+    margin-right:16px;
+    -webkit-text-stroke:2px black;
+    text-transform:uppercase;
+    animation-name:move;
+    animation-duration:3s
+}
+.newspart{
+    height:16vh;
+    padding:0 5vw;
+    border-top:3px solid #000;
+    display:flex;
+    justify-content:space-between;
+    align-items:center
+}
+.newspart h3,.twitter{
+    color:#000
+}
+.newspart h4{
+    color:#6c6b6b;
+    font-size:.8vw
+}
+.newspart:hover{
+    cursor:pointer;
+    background-color:#fb6e7a66
+}
+.newspart:last-child{
+    border-bottom:3px solid #000
+}
+#marque{
+    padding:2vw 0 0 2vw
+}
+#marque h1{
+    color:transparent
+}
+#marque2 h1{
+    color:#000;
+    letter-spacing:.1vw;
+    animation-direction:reverse
+}
+#faqs h1,#socials h1{
+    font-size:5vw
+}
+#faqs h3{
+    font-size:2vw;
+    margin-bottom:.5vw
+}
+#faqs p{
+    font-size:1vw;
+    line-height:1.5vw;
+    color:grey;
+    margin-bottom:1.5vw
+}
+#socials{
+    height:30vh
+}
+.social-handles{
+    padding-top:1vw;
+    display:flex;
+    justify-content:space-around
+}
+.social-handles h3{
+    font-size:1.5vw
+}
+.social-handles i{
+    padding-right:.3vw
+}
+.fb i{
+    color:#00f
+}
+.ig i{
+    color:#ea00ff
+}
+.yt i{
+    color:red
+}
+@keyframes scrollanimation{
+    from{
+        transform:translateX(0)
+    }
+    to{
+        transform:translateX(calc(-100% - 20px))
+    }
+}
+@keyframes rotate360{
+    from{
+        rotate:0
+    }
+    to{
+        rotate:360deg
+    }
+}
+@keyframes overlayhide{
+    from{
+        transform:translateX(0)
+    }
+    to{
+        transform:translateX(-100%)
+    }
+}
+@keyframes overlayinit{
+    from{
+        transform:translateX(-100%)
+    }
+    to{
+        transform:translateX(0)
+    }
+}
+@keyframes move{
+    from{
+        transform:translateX(0)
+    }
+    to{
+        transform:translateX(calc(-100% - 20px))
+    }
+}
