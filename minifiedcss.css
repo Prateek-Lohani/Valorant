@@ -1,1 +1,740 @@
-*{margin:0;padding:0;box-sizing: border-box;}html,body{height:100%;width:100%;font-family: monument,Kanit,sans-serif;;position: relative;scroll-behavior: smooth;}body::-webkit-scrollbar{width:8px;height: 4px;background-color: rgb(218, 218, 218);}body::-webkit-scrollbar-thumb{background-color: #FF4655;}.btn-scroll{position: absolute;height:40px;left:95%;width: 40px;border-radius: 50%;background-color: transparent;top:90%;z-index: 2;position: fixed;backdrop-filter: blur(10px);border:1px solid grey }.ri-arrow-up-double-fill{color:#FF4655;}.btn-scroll:hover{background-color: black;i{color: black;}}a i{color: #FF4655;}#main{width:100%;padding-top: 0.1px;}nav{width:100%;height:8vh;margin-top: 2vh;border-top: 0.5px solid #FF4655;border-bottom: .5px solid #FF4655;display: flex;justify-content: space-between;align-items: center;}.title{position: relative;display: flex;padding: 1vw;align-items: center;justify-content:center;}.title h1{letter-spacing: 2px;}.title img{width:1.7vw;height:3vh;margin-right: 0.5vw;}.menubar{display: flex;align-items: center;justify-content:center;position: relative;}a{text-decoration: none;color:black;}.menubar h2{padding:1vw;height: 100%;font-size: 2.2vh;font-weight: 500;border-left: 1px solid #FF4655;}.menubar h2 a:hover{color:#FF4655;cursor: pointer;}.center{width:100%;position: relative;height:78%;padding: 2vw 1vw;}.center video{width: 100%;height: 100%;object-fit: cover;border-radius: .3vw;}.center-top{position: absolute;top:75%;font-size: 2vw;width: calc(100% - 2vw);padding: 1vw;backdrop-filter: blur(1px);}.center-top p{margin-left: 1vw;font-weight: 550;color: white;}.center-top p:nth-last-child(1){color:#FF4655;}.center-bottom{position: absolute;top:76%;left:85%;padding: 1vw;backdrop-filter: blur(1px);}button{padding: 0.5vw;border-radius: 10px;font-size: 1vw;width:7vw;height: 3vw;font-weight: 600;background-color: #FF4655;color: white;border: none;}button:hover{cursor: pointer;.download-btn-color{animation-name: buttonhover;animation-duration: 2s;}}.center-page{width:100%;height:40vh;}.scroll{height:40vh;width:100%;white-space:nowrap;padding:1vw;overflow-x: hidden;overflow-y: hidden;border-bottom: 5px solid black;}.scroll img{height:40%;width:8%;border-radius: 50%;object-fit: cover;object-position: 0% -20%;margin: 1vh 0.3vw;}.agents{position: absolute;top:130%;left:2.5vw;font-weight:600 ;letter-spacing: .1vw;color: #FF4655;text-transform: uppercase;}.agent-info{position: absolute;top:134%;padding-left: 1.5vw;font-weight: 100;letter-spacing: .1vw;line-height: 1.4vw;}.logo-png{width:10px;height:10px;position: absolute;top:10%;}.container{height:100%;width:100%;display: inline-block;animation-name: scrollanimation;animation-duration: 15s;animation-iteration-count: infinite;animation-timing-function: linear;}.valo-img{position: absolute;width:100px;height:100px;top:133%;left:79%;background-image: url(./assets/toppng.com-valorant-logo-icon-3200x1796.png);background-size: cover;background-position: 50% 50%;}.game-info-title{width:100%;font-size: 5vw;padding: 1vw 1.5vw;color: #FF4655;border-bottom: 1px solid black;position: relative;letter-spacing: .4vw;}.game-info-section{width:100%;height:100%;padding:2vw;letter-spacing: .1vw;border-bottom: 5px solid black;}.game-info-section .p-left{text-align: left;line-height: 1.4vw;margin-bottom: 2vw;}.p-right{text-align: left;line-height: 1.3vw;}.round-text{position: absolute;top:218%;height: 300px;width: 300px;left: 76%;border-radius: 50%;mix-blend-mode:multiply;object-position: 50% 50%;animation-name: rotate360;animation-duration: 5s;animation-timing-function: linear;animation-iteration-count: infinite;}#media{width: 100%;height: 100%;padding:1.5vw;position: relative;border-bottom:5px solid black;}#media h1{font-size: 5vw;padding: 1vw 1.5vw;color: #FF4655;}#media-files{width:100%;height:100%;padding-left: 5vw;padding-top: 2vw;padding-bottom: 3vw;position: relative;display: grid;grid-template-columns: auto auto auto;}.wall{width: 26.041666666666668vw;height:26.041666666666668vw;position: relative;margin-bottom: 2vw;border-radius: 14px;overflow: hidden;box-shadow: 6px 4px 2px #FF4655;}.wall video{width:100%;height: 100%;object-fit:cover;}.overlay{width:26.041666666666668vw;height:26.041666666666668vw;position: absolute;animation-name: overlayinit;animation-duration: 1s;}.overlay1{background-image: url(./assets/hover/raze.jpg);background-size: cover;}.overlay2{background-image: url(./assets/hover/reyna.jpg);background-size: cover;}.overlay3{background-image: url(./assets/hover/jett.jpg);background-size: cover;}.overlay4{background-image: url(./assets/hover/sage.jpg);background-size: cover;}.overlay5{background-image: url(./assets/hover/kj.jpg);background-size: cover;}.overlay6{background-image: url(./assets/hover/deadlock.jpg);background-size: cover;}.overlay7{background-image: url(./assets/hover/fade.jpg);background-size: cover;}.overlay8{background-image: url(./assets/hover/neon.jpg);background-size: cover;}.overlay9{background-image: url(./assets/hover/astra.jpg);background-size: cover;}.wall:hover{cursor: pointer;.overlay{animation-name: overlayhide;animation-duration: .5s;animation-timing-function: linear;animation-fill-mode: forwards;}}.wall1 video{animation-play-state: paused;}#news{width:100%;height:100vh;padding:2vw;border-bottom:5px solid black;}#news>h1{font-size: 3vw;margin-bottom: 1vw;color: #FF4655;}.newspart{height:16vh;width:100%;padding:0 5vw;border-top:3px solid black;display: flex;justify-content: space-between;align-items: center;}.newspart h3{color: #000000;}.newspart h4{color: rgb(108, 107, 107);font-size: .8vw;}.newspart:hover{cursor: pointer;background-color: #fb6e7a66;}.newspart:nth-last-child(1){border-bottom: 3px solid black;}.menuitem{display: none;}#marque{width:100%;height:20vh;padding:2vw 0 0 2vw;white-space: nowrap;overflow-x: hidden;overflow-y: hidden;}#marque h1{display: inline-block;font-size: 4vw;margin-right: 16px;-webkit-text-stroke: 2px black;color:transparent;text-transform: uppercase;animation-name: move;animation-duration: 3s;animation-timing-function: linear;animation-iteration-count: infinite;}#marque2{width:100%;height:20vh;border-bottom:5px solid black;white-space: nowrap;overflow-x: hidden;overflow-y: hidden;}#marque2 h1{display: inline-block;font-size: 4vw;margin-right: 16px;-webkit-text-stroke: 2px black;color:black;text-transform: uppercase;animation-name: move;letter-spacing: .1vw;animation-duration: 3s;animation-direction: reverse;animation-timing-function: linear;animation-iteration-count: infinite;}#faqs{width: 100%;height:100%;border-bottom:5px solid black;padding:2vw;}#faqs h1{font-size: 5vw;margin-bottom: 1vw;color: #FF4655;}#faqs h3{font-size: 2vw;margin-bottom: .5vw;}#faqs p{font-size: 1vw;line-height: 1.5vw;color: grey;margin-bottom: 1.5vw;}#socials{width:100%;height:30vh;padding:2vw;}#socials h1{font-size: 5vw;margin-bottom: 1vw;color: #FF4655;}.social-handles a:hover{color: #FF4655;}.social-handles{padding-top: 1vw;display: flex;justify-content: space-around;}.social-handles h3{font-size:1.5vw;}.social-handles i{padding-right: 0.3vw;}.twitter{color:black;}.fb i{color:blue;}.ig i{color:rgb(234, 0, 255) }.yt i{color:red;}@keyframes scrollanimation {from{transform: translateX(0);}to{transform: translateX(calc(-100% - 20px));}}@keyframes rotate360{from{rotate: 0;}to{rotate:360deg;}}@keyframes overlayhide {from{transform: translateX(0%);}to {transform:translateX(-100%) }}@keyframes overlayinit {from{transform: translateX(-100%);}to {transform:translateX(0%);}}@keyframes move {from{transform: translateX(0);}to{transform: translateX(calc(-100% - 20px));}}@media (max-width:600px) {#main{width:100%;width:100%;}nav{width:100%;height:6vh;margin-top: 1vh;border-top: 0.5px solid #FF4655;border-bottom: .5px solid #FF4655;display: flex;padding:1vw;justify-content: space-between;align-items: center;}.title{position: relative;display: flex;padding: 1vw;align-items: center;justify-content:center;}.title h1{letter-spacing: 1.5px;font-size: 3vw;}.title img{width:4vw;height:3vh;margin-left: 1.5vw;}.menubar{display: none;}.menuitem{display: block;}.btn-scroll{position: absolute;height:6.5vw;left:89.5%;width: 6.5vw;border-radius: 50%;background-color: transparent;top:90%;z-index: 2;position: fixed;backdrop-filter: blur(10px);border:1.5px solid grey }.btn-scroll i{font-size: 2.3vw;}.scroll{height:15vh;}.agents{position: absolute;top:40%;left:2.5vw;font-weight:600 ;letter-spacing: .1vw;color: #FF4655;font-size: 3vw;text-transform: uppercase;}.agent-info{position: absolute;top:42.5%;font-size: 1.2vw;padding-left: 1.5vw;font-weight: 100;letter-spacing: .2vw;line-height: 1.6vw;}.valo-img{position: absolute;width:8vw;height:8vw;top:41.5%;left:85%;background-image: url(./assets/toppng.com-valorant-logo-icon-3200x1796.png);background-size: cover;background-position: 50% 50%;}.container img{width: 7.5vw;height:7.2vw;border-radius: 50%;}.game-info-section .p-left{text-align: left;font-size: 1.3vw;line-height: 1.6vw;margin-bottom: 2vw;}.p-right{text-align: left;line-height: 1.6vw;font-size: 1.3vw;}.round-text{position: absolute;top:74.2%;height: 15vw;width: 15vw;left:80%;border-radius: 50%;mix-blend-mode:multiply;object-position: 50% 50%;animation-name: rotate360;animation-duration: 5s;animation-timing-function: linear;animation-iteration-count: infinite;}.newspart h3{font-size: 2.1vw;}.newspart h4{font-size: 1.2vw;}#marque{width:100%;height:5vh;white-space: nowrap;overflow-x: hidden;overflow-y: hidden;}#marque h1{display: inline-block;font-size: 4vw;margin-right: 13.5px;letter-spacing: .5vw;-webkit-text-stroke: 2px black;color:transparent;text-transform: uppercase;animation-name: move;animation-duration: 3s;animation-timing-function: linear;animation-iteration-count: infinite;}#marque2{width:100%;height:6vh;border-bottom:5px solid black;white-space: nowrap;display: flex;justify-content: center;align-items: center;overflow-x: hidden;overflow-y: hidden;}#marque2 h1{display: inline-block;font-size: 4vw;margin-right: 20px;-webkit-text-stroke: 2px black;color:black;text-transform: uppercase;animation-name: move;letter-spacing: .5vw;animation-duration: 3s;animation-direction: reverse;animation-timing-function: linear;animation-iteration-count: infinite;}#socials{height:10vh }.wall{border-radius: 2vw;box-shadow: 1.6px 1.5px 1.2px #FF4655;}#news h1{margin-bottom: 5vw;}.newspart{height:10vh;width:100%;padding:0 5vw;border-top:3px solid black;display: flex;justify-content: space-between;align-items: center;}#news{width:100%;height:60vh;padding:2vw;border-bottom:5px solid black;}#news h1{font-size: 5vw;}}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html,body{
+    height:100%;
+    width:100%;
+    font-family: monument,Kanit,sans-serif;
+    ;
+    position: relative;
+    scroll-behavior: smooth;
+}
+body::-webkit-scrollbar{
+    width:8px;
+    height: 4px;
+    background-color: rgb(218, 218, 218);
+}
+body::-webkit-scrollbar-thumb{
+    background-color: #FF4655;
+}
+.btn-scroll{
+    position: absolute;
+    height:40px;
+    left:95%;
+    width: 40px;
+    border-radius: 50%;
+    background-color: transparent;
+    top:90%;
+    z-index: 2;
+    position: fixed;
+    backdrop-filter: blur(10px);
+    border:1px solid grey 
+}
+.ri-arrow-up-double-fill{
+    color:#FF4655;
+}
+.btn-scroll:hover{
+    background-color: black;
+    i{
+        color: black;
+    }
+}
+a i{
+    color: #FF4655;
+}
+#main{
+    width:100%;
+    padding-top: 0.1px;
+}
+nav{
+    width:100%;
+    height:8vh;
+    margin-top: 2vh;
+    border-top: 0.5px solid #FF4655;
+    border-bottom: .5px solid #FF4655;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.title{
+    position: relative;
+    display: flex;
+    padding: 1vw;
+    align-items: center;
+    justify-content:center;
+}
+.title h1{
+    letter-spacing: 2px;
+}
+.title img{
+    width:1.7vw;
+    height:3vh;
+    margin-right: 0.5vw;
+}
+.menubar{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    position: relative;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+.menubar h2{
+    padding:1vw;
+    height: 100%;
+    font-size: 2.2vh;
+    font-weight: 500;
+    border-left: 1px solid #FF4655;
+}
+.menubar h2 a:hover{
+    color:#FF4655;
+    cursor: pointer;
+}
+.center{
+    width:100%;
+    position: relative;
+    height:78%;
+    padding: 2vw 1vw;
+}
+.center video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: .3vw;
+}
+.center-top{
+    position: absolute;
+    top:75%;
+    font-size: 2vw;
+    width: calc(100% - 2vw);
+    padding: 1vw;
+    backdrop-filter: blur(1px);
+}
+.center-top p{
+    margin-left: 1vw;
+    font-weight: 550;
+    color: white;
+}
+.center-top p:nth-last-child(1){
+    color:#FF4655;
+}
+.center-bottom{
+    position: absolute;
+    top:76%;
+    left:85%;
+    padding: 1vw;
+    backdrop-filter: blur(1px);
+}
+button{
+    padding: 0.5vw;
+    border-radius: 10px;
+    font-size: 1vw;
+    width:7vw;
+    height: 3vw;
+    font-weight: 600;
+    background-color: #FF4655;
+    color: white;
+    border: none;
+}
+button:hover{
+    cursor: pointer;
+    .download-btn-color{
+        animation-name: buttonhover;
+        animation-duration: 2s;
+    }
+}
+.center-page{
+    width:100%;
+    height:40vh;
+}
+.scroll{
+    height:40vh;
+    width:100%;
+    white-space:nowrap;
+    padding:1vw;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    border-bottom: 5px solid black;
+}
+.scroll img{
+    height:40%;
+    width:8%;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: 0% -20%;
+    margin: 1vh 0.3vw;
+}
+.agents{
+    position: absolute;
+    top:130%;
+    left:2.5vw;
+    font-weight:600 ;
+    letter-spacing: .1vw;
+    color: #FF4655;
+    text-transform: uppercase;
+}
+.agent-info{
+    position: absolute;
+    top:134%;
+    padding-left: 1.5vw;
+    font-weight: 100;
+    letter-spacing: .1vw;
+    line-height: 1.4vw;
+}
+.logo-png{
+    width:10px;
+    height:10px;
+    position: absolute;
+    top:10%;
+}
+.container{
+    height:100%;
+    width:100%;
+    display: inline-block;
+    animation-name: scrollanimation;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.valo-img{
+    position: absolute;
+    width:100px;
+    height:100px;
+    top:133%;
+    left:79%;
+    background-image: url(./assets/toppng.com-valorant-logo-icon-3200x1796.png);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+.game-info-title{
+    width:100%;
+    font-size: 5vw;
+    padding: 1vw 1.5vw;
+    color: #FF4655;
+    border-bottom: 1px solid black;
+    position: relative;
+    letter-spacing: .4vw;
+}
+.game-info-section{
+    width:100%;
+    height:100%;
+    padding:2vw;
+    letter-spacing: .1vw;
+    border-bottom: 5px solid black;
+}
+.game-info-section .p-left{
+    text-align: left;
+    line-height: 1.4vw;
+    margin-bottom: 2vw;
+}
+.p-right{
+    text-align: left;
+    line-height: 1.3vw;
+}
+.round-text{
+    position: absolute;
+    top:218%;
+    height: 300px;
+    width: 300px;
+    left: 76%;
+    border-radius: 50%;
+    mix-blend-mode:multiply;
+    object-position: 50% 50%;
+    animation-name: rotate360;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+#media{
+    width: 100%;
+    height: 100%;
+    padding:1.5vw;
+    position: relative;
+    border-bottom:5px solid black;
+}
+#media h1{
+    font-size: 5vw;
+    padding: 1vw 1.5vw;
+    color: #FF4655;
+}
+#media-files{
+    width:100%;
+    height:100%;
+    padding-left: 5vw;
+    padding-top: 2vw;
+    padding-bottom: 3vw;
+    position: relative;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.wall{
+    width: 26.041666666666668vw;
+    height:26.041666666666668vw;
+    position: relative;
+    margin-bottom: 2vw;
+    border-radius: 14px;
+    overflow: hidden;
+    box-shadow: 6px 4px 2px #FF4655;
+}
+.wall video{
+    width:100%;
+    height: 100%;
+    object-fit:cover;
+}
+.overlay{
+    width:26.041666666666668vw;
+    height:26.041666666666668vw;
+    position: absolute;
+    animation-name: overlayinit;
+    animation-duration: 1s;
+}
+.overlay1{
+    background-image: url(./assets/hover/raze.jpg);
+    background-size: cover;
+}
+.overlay2{
+    background-image: url(./assets/hover/reyna.jpg);
+    background-size: cover;
+}
+.overlay3{
+    background-image: url(./assets/hover/jett.jpg);
+    background-size: cover;
+}
+.overlay4{
+    background-image: url(./assets/hover/sage.jpg);
+    background-size: cover;
+}
+.overlay5{
+    background-image: url(./assets/hover/kj.jpg);
+    background-size: cover;
+}
+.overlay6{
+    background-image: url(./assets/hover/deadlock.jpg);
+    background-size: cover;
+}
+.overlay7{
+    background-image: url(./assets/hover/fade.jpg);
+    background-size: cover;
+}
+.overlay8{
+    background-image: url(./assets/hover/neon.jpg);
+    background-size: cover;
+}
+.overlay9{
+    background-image: url(./assets/hover/astra.jpg);
+    background-size: cover;
+}
+.wall:hover{
+    cursor: pointer;
+    .overlay{
+        animation-name: overlayhide;
+        animation-duration: .5s;
+        animation-timing-function: linear;
+        animation-fill-mode: forwards;
+    }
+}
+.wall1 video{
+    animation-play-state: paused;
+}
+#news{
+    width:100%;
+    height:100vh;
+    padding:2vw;
+    border-bottom:5px solid black;
+}
+#news>h1{
+    font-size: 3vw;
+    /* text-align: center; */
+    margin-bottom: 1vw;
+    color: #FF4655;
+}
+.newspart{
+    height:16vh;
+    width:100%;
+    padding:0 5vw;
+    border-top:3px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.newspart h3{
+    color: #000000;
+}
+.newspart h4{
+    color: rgb(108, 107, 107);
+    font-size: .8vw;
+}
+.newspart:hover{
+    cursor: pointer;
+    background-color: #fb6e7a66;
+}
+.newspart:nth-last-child(1){
+    border-bottom: 3px solid black;
+}
+.menuitem{
+    display: none;
+}
+
+#marque{
+    width:100%;
+    height:20vh;
+    padding:2vw 0 0 2vw;
+    white-space: nowrap;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+#marque h1{
+    display: inline-block;
+    font-size: 4vw;
+    margin-right: 16px;
+    -webkit-text-stroke: 2px black;
+    color:transparent;
+    text-transform: uppercase;
+    animation-name: move;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+#marque2{
+    width:100%;
+    height:20vh;
+    border-bottom:5px solid black;
+    white-space: nowrap;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+#marque2 h1{
+    display: inline-block;
+    font-size: 4vw;
+    margin-right: 16px;
+    -webkit-text-stroke: 2px black;
+    color:black;
+    text-transform: uppercase;
+    animation-name: move;
+    letter-spacing: .1vw;
+    animation-duration: 3s;
+    animation-direction: reverse;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+#faqs{
+    width: 100%;
+    height:100%;
+    border-bottom:5px solid black;
+    padding:2vw;
+}
+#faqs h1{
+    font-size: 5vw;
+    margin-bottom: 1vw;
+    color: #FF4655;
+}
+#faqs h3{
+    font-size: 2vw;
+    margin-bottom: .5vw;
+}
+#faqs p{
+    font-size: 1vw;
+    line-height: 1.5vw;
+    color: grey;
+    margin-bottom: 1.5vw;
+}
+#socials{
+    width:100%;
+    height:30vh;
+    padding:2vw;
+}
+#socials h1{
+    font-size: 5vw;
+    margin-bottom: 1vw;
+    color: #FF4655;
+}
+.social-handles a:hover{
+    color: #FF4655;
+}
+.social-handles{
+    padding-top: 1vw;
+    display: flex;
+    justify-content: space-around;
+}
+.social-handles h3{
+    font-size:1.5vw;
+}
+.social-handles i{
+    padding-right: 0.3vw;
+}
+.twitter{
+    color:black;
+}
+.fb i{
+    color:blue;
+}
+.ig i{
+    color:rgb(234, 0, 255) 
+}
+.yt i{
+    color:red;
+}
+@keyframes scrollanimation {
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(calc(-100% - 20px));
+    }
+}
+@keyframes rotate360{
+    from{
+        rotate: 0;
+    }
+    to{
+        rotate:360deg;
+    }
+}
+@keyframes overlayhide {
+    from{
+        transform: translateX(0%);
+    }
+    to {
+        transform:translateX(-100%) 
+    }
+}
+@keyframes overlayinit {
+    from{
+        transform: translateX(-100%);
+    }
+    to {
+        transform:translateX(0%);
+    }
+}
+@keyframes move {
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(calc(-100% - 20px));
+    }
+}
+
+
+@media (max-width:600px) {
+    
+
+    #main{
+        width:100%;
+        width:100%;
+    }
+    
+    nav{
+        width:100%;
+        height:6vh;
+        margin-top: 1vh;
+        border-top: 0.5px solid #FF4655;
+        border-bottom: .5px solid #FF4655;
+        display: flex;
+        padding:1vw;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .title{
+        position: relative;
+        display: flex;
+        padding: 1vw;
+        align-items: center;
+        justify-content:center;
+    }
+    .title h1{
+        letter-spacing: 1.5px;
+        font-size: 3vw;
+    }
+    .title img{
+        width:4vw;
+        height:3vh;
+        margin-left: 1.5vw;}
+
+    .menubar{
+        display: none;
+    }   
+    .menuitem{
+        display: block;
+    } 
+
+    .btn-scroll{
+        position: absolute;
+        height:6.5vw;
+        left:89.5%;
+        width: 6.5vw;
+        border-radius: 50%;
+        background-color: transparent;
+        top:90%;
+        z-index: 2;
+        position: fixed;
+        backdrop-filter: blur(10px);
+        border:1.5px solid grey 
+    }
+    .btn-scroll i{
+        font-size: 2.3vw;
+    }
+
+    .scroll{
+        height:15vh;
+        /* background-color: red; */
+    }
+
+    .agents{
+        position: absolute;
+        top:40%;
+        left:2.5vw;
+        font-weight:600 ;
+        letter-spacing: .1vw;
+        color: #FF4655;
+        font-size: 3vw;
+        text-transform: uppercase;
+    }
+    .agent-info{
+        position: absolute;
+        top:42.5%;
+        font-size: 1.2vw;
+        padding-left: 1.5vw;
+        font-weight: 100;
+        letter-spacing: .2vw;
+        line-height: 1.6vw;
+    }
+
+    .valo-img{
+        position: absolute;
+        width:8vw;
+        height:8vw;
+        top:41.5%;
+        left:85%;
+        background-image: url(./assets/toppng.com-valorant-logo-icon-3200x1796.png);
+        background-size: cover;
+        background-position: 50% 50%;
+    }
+
+    .container img{
+        width: 7.5vw;
+        height:7.2vw;
+        border-radius: 50%;
+    }
+
+    .game-info-section .p-left{
+        text-align: left;
+        font-size: 1.3vw;
+        line-height: 1.6vw;
+        margin-bottom: 2vw;
+    }
+    .p-right{
+        text-align: left;
+        line-height: 1.6vw;
+        font-size: 1.3vw;
+    }
+
+    .round-text{
+        position: absolute;
+        top:74.2%;
+        height: 15vw;
+        width: 15vw;
+        left:80%;
+        border-radius: 50%;
+        mix-blend-mode:multiply;
+        object-position: 50% 50%;
+        animation-name: rotate360;
+        animation-duration: 5s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+    }
+
+    .newspart h3{
+        font-size: 2.1vw;
+    }
+    .newspart h4{
+        font-size: 1.2vw;
+    }
+
+    #marque{
+        width:100%;
+        height:5vh;
+        /* padding:2vw 0 0; */
+        white-space: nowrap;
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+    #marque h1{
+        display: inline-block;
+        font-size: 4vw;
+        margin-right: 13.5px;
+        letter-spacing: .5vw;
+        -webkit-text-stroke: 2px black;
+        color:transparent;
+        text-transform: uppercase;
+        animation-name: move;
+        animation-duration: 3s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+    }
+    #marque2{
+        width:100%;
+        height:6vh;
+        border-bottom:5px solid black;
+        white-space: nowrap;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        /* background-color: red; */
+    }
+    #marque2 h1{
+        display: inline-block;
+        font-size: 4vw;
+        margin-right: 20px;
+        -webkit-text-stroke: 2px black;
+        color:black;
+        text-transform: uppercase;
+        animation-name: move;
+        letter-spacing: .5vw;
+        animation-duration: 3s;
+        animation-direction: reverse;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+    }
+
+    #socials{
+        /* background-color: red; */
+        height:10vh
+    }
+
+.wall{
+    border-radius: 2vw;
+    box-shadow: 1.6px 1.5px 1.2px #FF4655;
+}
+
+#news h1{
+    margin-bottom: 5vw;
+}
+
+.newspart{
+    height:10vh;
+    width:100%;
+    padding:0 5vw;
+    border-top:3px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#news{
+    width:100%;
+    height:60vh;
+    padding:2vw;
+    border-bottom:5px solid black;
+}
+
+#news h1{
+    font-size: 5vw;
+}
+
+}
