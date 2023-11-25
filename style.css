@@ -8,7 +8,7 @@ html,body{
     height:100%;
     width:100%;
     /* background-color: #111111; */
-    font-family: monument,DINNextW05-Bold,arial,georgia,sans-serif;
+    font-family: monument,Kanit,sans-serif;;
     /* overflow-y: hidden; */
     position: relative;
     scroll-behavior: smooth;
@@ -37,6 +37,10 @@ body::-webkit-scrollbar-thumb{
     backdrop-filter: blur(10px);
     border:1px solid grey
 }
+.ri-arrow-up-double-fill{
+color:#FF4655;
+}
+
 
 .btn-scroll:hover{
     background-color: black;
