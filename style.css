@@ -10,6 +10,8 @@ html,body{
     /* background-color: #111111; */
     font-family: monument;
     /* overflow-y: hidden; */
+    position: relative;
+    scroll-behavior: smooth;
 }
 
 body::-webkit-scrollbar{
@@ -22,10 +24,36 @@ body::-webkit-scrollbar-thumb{
     background-color: #FF4655;
 }
 
+.btn-scroll{
+    position: absolute;
+    height:40px;
+    left:95%;
+    width: 40px;
+    border-radius: 50%;
+    background-color: transparent;
+    top:90%;
+    z-index: 2;
+    position: fixed;
+    backdrop-filter: blur(10px);
+    border:1px solid grey
+}
+
+.btn-scroll:hover{
+    background-color: black;
+    i{
+        color: black;
+    }
+}
+
+a i{
+    color: #FF4655;
+}
+
 #main{
     width:100%;
-    /* height:100%; */
+    /* height: 100v/; */
     padding-top: 0.1px;
+    /* position: relative; */
     /* background-color: red; */
 }
 
@@ -68,6 +96,12 @@ nav{
 }
 
 
+a{
+    text-decoration: none;
+    color:black;
+
+}
+
 .menubar h2{
     padding:1vw;
     height: 100%;
@@ -76,7 +110,7 @@ nav{
     border-left: 1px solid #FF4655;
 }
 
-.menubar h2:hover{
+.menubar h2 a:hover{
     color:#FF4655;
     cursor: pointer;
    
@@ -121,6 +155,7 @@ nav{
     position: absolute;
     top:76%;
     left:85%;
+    /* background-color: red; */
     padding: 1vw;
     backdrop-filter: blur(1px);
    
@@ -138,9 +173,14 @@ button{
     border: none;
 }
 
+
 button:hover{
     cursor: pointer;
-    background-color: crimson;
+    /* background-color: crimson; */
+    .download-btn-color{
+        animation-name: buttonhover;
+    animation-duration: 2s;
+    }
 }
 
 .center-page{
@@ -153,7 +193,7 @@ button:hover{
     width:100%;
     white-space:nowrap;
     padding:1vw;
-    /* background-color: red; */
+    /* background-color: yellowgreen; */
     overflow-x: hidden;
     overflow-y: hidden;
     border-bottom: 5px solid black;
@@ -167,6 +207,10 @@ button:hover{
     object-fit: cover;
     object-position: 0% -20%;
     margin: 1vh 0.3vw;
+    /* animation-name: scrollanimation;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; */
     /* border-right:2px solid black; */
 }
 
@@ -201,7 +245,7 @@ button:hover{
 .container{
     height:100%;
     width:100%;
-    /* background-color: yellowgreen; */
+    /* background-color: yellow; */
     display: inline-block;
     animation-name: scrollanimation;
     animation-duration: 15s;
@@ -273,6 +317,7 @@ button:hover{
     width: 100%;
     height: 100%;
     padding:1.5vw;
+    position: relative;
     border-bottom:5px solid black;
 
 }
@@ -386,12 +431,184 @@ animation-play-state: paused;
 }
 
 
+#news{
+    width:100%;
+height:100vh;
+    /* background-color: yellow; */
+    /* position: absolute; */
+    /* position: relative; */
+    padding:2vw;
+    border-bottom:5px solid black;
+    
+}
+
+#news>h1{
+    font-size: 3vw;
+    text-align: center;
+    margin-bottom: 1vw;
+    color: #FF4655;
+}
+
+.newspart{
+    height:16vh;
+    width:100%;
+    padding:0 5vw;
+    /* background-color: blue; */
+    border-top:3px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.newspart h3{
+    color: #000000;
+}
+
+.newspart h4{
+    color: rgb(108, 107, 107);
+    font-size: .8vw;
+} 
+
+.newspart:hover{
+    cursor: pointer;
+    background-color: #fb6e7a66;
+}
+
+.newspart:nth-last-child(1){
+    border-bottom: 3px solid black;
+}
+
+#marque{
+    width:100%;
+    height:20vh;
+    padding:2vw 0 0 2vw;
+    white-space: nowrap;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    /* background-color: aqua; */
+}
+
+#marque h1{
+    display: inline-block;
+    font-size: 4vw;
+    margin-right: 16px;
+    -webkit-text-stroke: 2px black;
+    color:transparent;
+    text-transform: uppercase;
+    animation-name: move;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+#marque2{
+    width:100%;
+    height:20vh;
+    border-bottom:5px solid black;
+    /* padding:2vw 0; */
+    white-space: nowrap;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    /* background-color: aqua; */
+}
+
+#marque2 h1{
+    display: inline-block;
+    font-size: 4vw;
+    margin-right: 16px;
+    -webkit-text-stroke: 2px black;
+    color:black;
+    text-transform: uppercase;
+    animation-name: move;
+    letter-spacing: .1vw;
+    animation-duration: 3s;
+    animation-direction: reverse;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+
+#faqs{
+    width: 100%;
+    height:100%;
+    border-bottom:5px solid black;
+
+    /* background-color: red; */
+    /* position: absolute; */
+    padding:2vw;
+}
+
+#faqs h1{
+    font-size: 5vw;
+    margin-bottom: 1vw;
+    color: #FF4655;
+}
+
+#faqs h3{
+    font-size: 2vw;
+    margin-bottom: .5vw;
+}
+
+#faqs p{
+    font-size: 1vw;
+    line-height: 1.5vw;
+    color: grey;
+    margin-bottom: 1.5vw;
+}
+
+#socials{
+    width:100%;
+    height:30vh;
+    /* background-color: red; */
+    padding:2vw;
+}
+
+#socials h1{
+    font-size: 5vw;
+    margin-bottom: 1vw;
+    color: #FF4655;
+}
+
+.social-handles a:hover{
+    color: #FF4655;
+}
+
+.social-handles{
+    padding-top: 1vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+.social-handles h3{
+    font-size:1.5vw;
+}
+
+.social-handles i{
+    padding-right: 0.3vw;
+}
+
+.twitter{
+    color:black;
+
+}
+.fb i{
+    color:blue;
+}
+
+.ig i{
+    color:rgb(234, 0, 255)
+}
+
+.yt i{
+    color:red;
+}
+
 @keyframes scrollanimation {
     from{
         transform: translateX(0);
     }
     to{
-        transform: translateX(-100%);
+        transform: translateX(calc(-100% - 20px));
     }
 }
 
@@ -421,3 +638,14 @@ animation-play-state: paused;
     to {transform:translateX(0%);
     }
 }
+
+
+@keyframes move {
+    from{
+        transform: translateX(0);
+    }    
+    to{
+        transform: translateX(calc(-100% - 20px));
+    }   
+}
+
