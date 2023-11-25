@@ -8,7 +8,7 @@ html,body{
     height:100%;
     width:100%;
     /* background-color: #111111; */
-    font-family: monument;
+    font-family: monument,DINNextW05-Bold,arial,georgia,sans-serif;
     /* overflow-y: hidden; */
     position: relative;
     scroll-behavior: smooth;
